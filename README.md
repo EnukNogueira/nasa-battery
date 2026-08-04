@@ -1,6 +1,6 @@
 # NASA Battery Dataset — Análise de Degradação de Baterias
 
-Projeto em desenvolvimento. Análise exploratória e limpeza de dados sobre degradação de baterias de íon de lítio a partir do dataset público da NASA.
+Projeto em desenvolvimento.
 
 ---
 
