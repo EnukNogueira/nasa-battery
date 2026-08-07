@@ -17,8 +17,7 @@ Este projeto utiliza o dataset de baterias da NASA (Battery Data Set), que regis
 ```
 nasa-battery/
 ├── battery_dataset/        # Arquivos de dados brutos da NASA
-├── clean_date.ipynb        # Notebook de limpeza e tratamento inicial
-├── modeling.ipynb          # Notebook de feature engineering e modelagem preditiva
+├── sklearn_battery.ipynb   # Análise dos dados e rodada de modelagem preditiva
 └── README.md
 ```
 
