@@ -1,71 +1,25 @@
 # NASA Battery Dataset — Análise de Degradação de Baterias
 
-Projeto em desenvolvimento.
+Projeto de análise de dados e Machine Learning utilizando o NASA Battery Dataset para estudar a degradação da capacidade de baterias de íon-lítio ao longo dos ciclos de uso.
+
+O projeto está sendo desenvolvido em etapas, passando pelo tratamento dos dados, análise exploratória, engenharia de atributos, modelagem preditiva, validação dos modelos e, posteriormente, criação de uma aplicação interativa em Dash.
 
 ---
 
 ## Sobre o projeto
 
-Este projeto utiliza o dataset de baterias da NASA (Battery Data Set), que registra ciclos de carga e descarga de baterias de íon de lítio sob diferentes condições operacionais. O objetivo é explorar padrões de degradação, prever a capacidade da bateria ao longo dos ciclos de uso e comparar modelos de regressão para identificar a abordagem mais eficaz.
+O dataset registra ciclos de carga e descarga de baterias de íon-lítio submetidas a diferentes condições de operação.
 
-> **Status:** Em desenvolvimento. Análise dos dados, engenharia de atributos e a primeira rodada de modelagem preditiva já estão implementadas.
+O objetivo principal é analisar como a capacidade das baterias se comporta ao longo dos ciclos e avaliar modelos de Machine Learning capazes de prever essa capacidade.
+
+Além da análise da degradação, o projeto busca comparar diferentes abordagens de regressão e entender quais modelos apresentam melhor desempenho para esse problema.
 
 ---
 
 ## Estrutura do repositório
 
-```
+```text
 nasa-battery/
-├── battery_dataset/        # Arquivos de dados brutos da NASA
-├── sklearn_battery.ipynb   # Análise dos dados e rodada de modelagem preditiva
-└── README.md
-```
-
----
-
-## O que já foi feito
-
-- **Limpeza e tratamento dos dados**: filtragem dos registros de descarga, conversão de tipos e remoção de valores nulos.
-- **Engenharia de atributos**: criação da coluna `ciclo`, numerando sequencialmente as descargas de cada bateria para representar sua "idade" ao longo do uso.
-- **Visualização da curva de degradação**: plotagem da capacidade da bateria ao longo dos ciclos de descarga.
-- **Modelagem preditiva**: comparação de três modelos de regressão do scikit-learn para prever a capacidade da bateria a partir do ciclo e da temperatura ambiente:
-  - Random Forest Regressor
-  - Linear Regression
-  - Decision Tree Regressor
-- **Avaliação de modelos**: métricas de erro (RMSE, MAE e R²) calculadas para cada modelo, permitindo comparar desempenho.
-
----
-
-## Tecnologias utilizadas
-
-- **Python 3**
-- **Pandas** — manipulação e limpeza de dados
-- **NumPy** — operações numéricas
-- **Matplotlib** — visualização de dados
-- **Scikit-learn** — modelagem preditiva (Random Forest, Linear Regression, Decision Tree) e métricas de avaliação
-- **Jupyter Notebook** — ambiente de desenvolvimento
-
----
-
-## Próximos passos
-
-- [x] Ajuste de hiperparâmetros dos modelos para melhorar o desempenho
-- [ ] Identificação do ponto de fim de vida útil (capacidade < 70% do valor nominal)
-- [ ] Documentação comparativa final dos quatros modelos com conclusões sobre qual se ajusta melhor ao problema
-- [ ] Dashboard em Dash para análise
-
----
-
-## Fonte dos dados
-
-Dataset público disponibilizado pela NASA:
-[NASA Battery Dataset — Prognostics Center of Excellence](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/)
-
----
-
-## Autor
-
-**Enuk Nogueira** — Estudante de Análise e Desenvolvimento de Sistemas, com foco em Análise de Dados
-
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/enuknogueira/)
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EnukNogueira)
+├── battery_dataset/        # Dados utilizados no projeto
+├── sklearn_battery.ipynb   # Tratamento, análise e modelagem
+└── README.md               # Documentação do projeto
