@@ -49,7 +49,7 @@ nasa-battery/
 
 ## Próximos passos
 
-- [ ] Ajuste de hiperparâmetros dos modelos para melhorar o desempenho
+- [x] Ajuste de hiperparâmetros dos modelos para melhorar o desempenho
 - [ ] Identificação do ponto de fim de vida útil (capacidade < 70% do valor nominal)
 - [ ] Documentação comparativa final dos quatros modelos com conclusões sobre qual se ajusta melhor ao problema
 - [ ] Dashboard em Dash para análise
