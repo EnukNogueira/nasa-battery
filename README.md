@@ -8,7 +8,7 @@ Projeto em desenvolvimento.
 
 Este projeto utiliza o dataset de baterias da NASA (Battery Data Set), que registra ciclos de carga e descarga de baterias de íon de lítio sob diferentes condições operacionais. O objetivo é explorar padrões de degradação, prever a capacidade da bateria ao longo dos ciclos de uso e comparar modelos de regressão para identificar a abordagem mais eficaz.
 
-> **Status:** Em desenvolvimento. Limpeza/Análise dos dados, engenharia de atributos e a primeira rodada de modelagem preditiva já estão implementadas.
+> **Status:** Em desenvolvimento. Análise dos dados, engenharia de atributos e a primeira rodada de modelagem preditiva já estão implementadas.
 
 ---
 
@@ -51,7 +51,8 @@ nasa-battery/
 
 - [ ] Ajuste de hiperparâmetros dos modelos para melhorar o desempenho
 - [ ] Identificação do ponto de fim de vida útil (capacidade < 70% do valor nominal)
-- [ ] Documentação comparativa final dos três modelos com conclusões sobre qual se ajusta melhor ao problema
+- [ ] Documentação comparativa final dos quatros modelos com conclusões sobre qual se ajusta melhor ao problema
+- [ ] Dashboard em Dash para análise
 
 ---
 
